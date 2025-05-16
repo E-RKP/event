@@ -108,3 +108,17 @@ cliqq.onclick = function apparizione(){
   console.log('ciao')
   pove.textContent = 'svegliaaa'
 }
+
+const nascondiglio = document.getElementById('nascondiglio')
+const cliccare = document.getElementById('here')
+const cambiofrase = document.getElementById('lullemon')
+
+function miracolo (){
+
+  cambiofrase.textContent = 'eccoci'
+  
+}
+
+cliccare.addEventListener ('click', ()=>{
+  miracolo();
+})
